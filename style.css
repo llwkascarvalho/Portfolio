@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font_principal);
+}
+
+:root {
+    --branco_claro: #f5f5f5;
+    --cinzaclaro: #ffffff80;
+    --sombra: #5992ab1a;
+    --azul1: #6C6CEC;
+    --azul2: #2D2BA6;
+    --azul3: #000069;
+    --black: #00000a;
+
+
+    --font_principal: 'Saira', sans-serif;
+    --font_diferente: 'Saira Stencil One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Saira:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body {
+    background-color: var(--black);
+    min-width: 320px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.cabecalho {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+.nome-cabecalho {
+    font-family: var(--font_diferente);
+    color: var(--branco_claro);
+    font-size: 32px;
+}
+
+span {
+    font-family: var(--font_diferente);
+    color: var(--azul1);
+}
+
+.item-navegacao {
+    color: var(--branco_claro);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.item-navegacao:active {
+    color: #6C6CEC;
+}
+
+.item-navegacao:hover {
+    text-decoration: underline var(--azul1);
+}
+
+
+
+.principal {
+    display: flex; 
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    height: calc(100vh - 125px);
+}
+
+#sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imagem-principal {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid var(--azul1);
+}
+
+.h1-principal {
+    color: var(--azul1);
+
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.about-me {
+    margin: auto;
+}
+
+.about {
+    color: var(--cinzaclaro);
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.button-projetos {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 1rem;
+    color: var(--branco_claro);
+    background-color: var(--black);
+    border: 1px solid var(--azul1);
+}
+
+.button-projetos:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 2px var(--azul1);
+}
+
+
+
+.sobre {
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo-sobre {
+    font-size: 2.5em;
+    color: var(--azul1);
+}
+
+.sobre-sobre{
+    margin-top: 25px; 
+    margin-bottom: 50px;
+    color: var(--branco_claro);
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.nome {
+    color: var(--azul1);
+    
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.formacoes {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco_claro);
+    flex-wrap: wrap;
+}
+
+.form h2 {
+    font-size: 1.5em;
+    color: var(--cinzaclaro);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.form p {
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+
+.form strong {
+    font-weight: 600;
+}
+
+.card-1 {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid var(--sombra);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px var(--sombra);
+}
+
+.card-1:hover {
+    box-shadow: 1px 1px 10px 2px var(--azul1);
+}
+
+.projetos {
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contato {
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
