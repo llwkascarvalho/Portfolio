@@ -1,0 +1,49 @@
+.titulo__formacoes {
+    color: var(--azul1);
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+.formacoes {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 2em 2em 2em 2em;
+}
+
+.container__cards {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    gap: 1em;
+    color: var(--branco_claro);
+    flex-wrap: wrap;
+}
+
+.container__cards h2 {
+    font-size: 1.3em;
+    color: var(--cinzaclaro);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.container__cards p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.container__cards strong {
+    font-weight: 600;
+}
+
+.card {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid var(--sombra);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px var(--sombra);
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px 2px var(--azul1);
+}

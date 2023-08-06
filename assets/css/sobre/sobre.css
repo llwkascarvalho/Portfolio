@@ -1,0 +1,22 @@
+.sobre {
+    height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2em 2em 0 2em;
+}
+
+.titulo__sobre {
+    display: inline-block;
+    font-size: 2.5em;
+    color: var(--azul1);
+    margin-bottom: 25px;
+}
+
+.p__sobre{
+    margin-bottom: 50px;
+    color: var(--branco_claro);
+    font-size: 1.5em;
+    line-height: 28px;
+    text-align: justify;
+    font-weight: 200;
+}

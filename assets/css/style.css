@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Saira:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font_principal);
+}
+
+:root {
+    --branco_claro: #f5f5f5;
+    --cinzaclaro: #ffffff80;
+    --sombra: #5992ab1a;
+    --azul1: #6C6CEC;
+    --azul2: #2D2BA6;
+    --azul3: #000069;
+    --black: #00000a;
+
+
+    --font_principal: 'Saira', sans-serif;
+    --font_diferente: 'Saira Stencil One', cursive;
+}
+
+body {
+    background-color: var(--black);
+    min-width: 320px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+hr {
+    max-width: 800px;
+    margin: auto;
+    color: var(--branco_claro);
+}
