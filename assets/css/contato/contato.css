@@ -10,3 +10,40 @@
     font-size: 2.5em;
     margin-bottom: 25px;
 }
+
+.divisao__conteudo {
+    display: flex;
+}
+
+.conteudo__primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudo__primary > p {
+    color: var(--branco_claro);
+    font-size: 1.5em;
+}
+
+.redes__sociais {
+    box-shadow: 1px 1px 10px 2px var(--azul1);
+    width: 170px;
+    border-radius: 1em;
+    gap: 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+.bloco__redes {
+    display: flex;
+    gap: 0.5em;
+}
+
+.redes__sociais--link {
+    display: flex;
+    text-decoration: none;
+}
+
+.imagem__front {
+    width: 470px;
+}

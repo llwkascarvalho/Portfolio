@@ -1,138 +1,199 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header/header.css">
-    <link rel="stylesheet" href="assets/css/inicio/inicio.css">
-    <link rel="stylesheet" href="assets/css/sobre/sobre.css">
-    <link rel="stylesheet" href="assets/css/formacoes/formacoes.css">
-    <link rel="stylesheet" href="assets/css/projetos/projetos.css">
-    <link rel="stylesheet" href="assets/css/contato/contato.css">
-    <link rel="shortcut icon" href="./assets/imagens/favicon.ico" type="image/x-icon">
-    <title>Portfólio</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/reset.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/header/header.css">
+   <link rel="stylesheet" href="assets/css/inicio/inicio.css">
+   <link rel="stylesheet" href="assets/css/sobre/sobre.css">
+   <link rel="stylesheet" href="assets/css/formacoes/formacoes.css">
+   <link rel="stylesheet" href="assets/css/projetos/projetos.css">
+   <link rel="stylesheet" href="assets/css/contato/contato.css">
+   <link rel="stylesheet" href="assets/css/footer/footer.css">
+   <link rel="shortcut icon" href="./assets/imagens/favicon-16x16.png" type="image/x-icon">
+   <title>Portfólio</title>
 </head>
+
 <body>
-    <header class="cabecalho">
-        <p class="nome__cabecalho">Lwkas <span>Carvalho</span></p>
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link ativo" href="#" target="_blank">Inicio</a></li>
-                <li class="menu__item"><a class="menu__link" href="#" target="_blank">Sobre</a></li>
-                <li class="menu__item"><a class="menu__link" href="#" target="_blank">Formações</a></li>
-                <li class="menu__item"><a class="menu__link" href="#" target="_blank">Projetos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#" target="_blank">Contato</a></li>
+   <header class="cabecalho">
+      <a class="link__cabecalho" href="index.html">
+         <p class="nome__cabecalho">Lwkas <span>Carvalho</span></p>
+      </a>
+      <nav class="menu">
+         <ul class="menu__lista">
+            <li class="menu__item">
+               <a class="menu__link ativo" href="#">Inicio</a>
+            </li>
+            <li class="menu__item">
+               <a class="menu__link" href="#2">Sobre</a>
+            </li>
+            <li class="menu__item">
+               <a class="menu__link" href="#3">Formações</a>
+            </li>
+            <li class="menu__item">
+               <a class="menu__link" href="#4">Projetos</a>
+            </li>
+            <li class="menu__item">
+               <a class="menu__link" href="#5">Contato</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+
+      <section class="inicio">
+         <div class="bloco__sociais">
+            <a href="https://github.com/llwkascarvalho" target="_blank">
+               <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-github (1).svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/llwkascarvalho/" target="_blank">
+               <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-linkedin (1).svg" alt="Linkedin">
+            </a>
+            <a href="https://acesse.one/llwkascarvalho" target="_blank">
+               <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-whatsapp.svg" alt="WhatsApp">
+            </a>
+         </div>
+         <div class="bloco__inicio">
+            <img class="imagem__inicio" src="assets/imagens/foto-pessoal.png" alt="">
+            <h1 class="h1__inicio">Olá, eu sou Lwkas Carvalho</h1>
+            <p class="sobre__inicio">Desenvolvedor Front End</p>
+            <button class="button projetos__inicio" type="button">Meus projetos</button>
+         </div>
+      </section>
+      <img id="btnTopo" class="botao-topo" src="assets/imagens/icones/up arrow.png" alt="">
+
+      <hr>
+
+
+      <section id="2" class="sobre">
+         <div>
+            <h2 class="titulo__sobre">Sobre mim</h2>
+            <ul class="lista__sobre">
+               <li class="item__sobre">Me chamo Lwkas Carvalho, tenho 19 anos.</li>
+               <li class="item__sobre">Universitário do curso Análise e Desenvolvimento de Sistemas, no Instituto
+                  Federal do Rio Grande do Norte - IFRN / Campus Pau dos Ferros.</li>
+               <li class="item__sobre">Tenho experiência em <span class="destaque">HTML, CSS, C++ e GitHub
+                     Desktop.</span></li>
+               <li class="item__sobre">Também sou parte do programa Oracle Next Education - ONE, onde estou
+                  aprofundando meu conhecimento em <span class="destaque">JavaScript, React e
+                     Empreendedorismo.</span></li>
+               <li class="item__sobre">Estou aberto a novos desafios e preparado para explorar outras áreas e
+                  tecnologias.</li>
             </ul>
-        </nav>  
-    </header>
+         </div>
+      </section>
 
-    <main>
+      <hr>
 
-        <section class="inicio">
-            <div class="bloco__sociais">
-                <a href="https://github.com/llwkascarvalho" target="_blank">
-                    <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-github (1).svg" alt="GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/llwkascarvalho/" target="_blank">
-                    <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-linkedin (1).svg" alt="Linkedin">
-                </a>
-                <a href="https://acesse.one/llwkascarvalho" target="_blank">
-                    <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-whatsapp.svg" alt="WhatsApp">
-                </a>
+      <section id="3" class="formacoes">
+         <h2 class="titulo__formacoes">Formações</h2>
+
+         <div class="container__cards">
+            <div class="card">
+               <h2>Análise e Desenvolvimento de Sistemas</h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 2000h</p>
+               <p><strong>Periodo:</strong> Dias atuais</p>
             </div>
-            <div class="bloco__inicio">
-                <img class="imagem__inicio" src="assets/imagens/foto-pessoal.png" alt="">
-                <h1 class="h1__inicio">Olá, eu sou Lwkas Carvalho</h1>
-                <p class="sobre__inicio">Desenvolvedor Front End</p>
-                <button class="button projetos__inicio" type="button">Meus projetos</button>
-            </div>   
-        </section>
-
-        <hr>
-
-        <section class="sobre">
-            <div>
-                <h2 class="titulo__sobre">Sobre mim</h2>
-                <p class="p__sobre">Sou universitário do curso Análise e Desenvolvimento de sistemas, no Instituto Federal do Rio Grande do Norte (IFRN).
-                    <br><br>
-                    Sou aluno do programa Oracle Next Education - ONE
-                </p>
+            <div class="card">
+               <h2> Iniciante em Programação T5 - ONE </h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 71h</p>
+               <p><strong>Periodo:</strong> 05/04 à 23/05</p>
             </div>
-        </section>
-
-        <hr>
-
-        <section class="formacoes">
-            <h2 class="titulo__formacoes">Formações e Habilidades</h2>
-            
-            <div class="container__cards">
-                <div class="card">
-                    <h2>Análise e Desenvolvimento de Sistemas</h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 2000h</p>
-                    <p><strong>Periodo:</strong> Dias atuais</p>
-                </div>
-                <div class="card">
-                    <h2> Iniciante em Programação T5 - ONE </h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 71h</p>
-                    <p><strong>Periodo:</strong> 05/04 à 23/05</p>
-                </div>
-                <div class="card">
-                    <h2>Front End T5 - ONE</h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 74h</p>
-                    <p><strong>Periodo:</strong> 06/06 à 01/08</p>
-                </div>
-                <div class="card">
-                    <h2>React T5 - ONE</h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 63h</p>
-                    <p><strong>Periodo:</strong> Dias atuais</p>
-                </div>
-                <div class="card">
-                    <h2>Desenvolvimento Pessoal T5 - ONE</h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 37h</p>
-                    <p><strong>Periodo:</strong> 31/03 à 04/04</p>
-                </div>
-                <div class="card">
-                    <h2>Business Agility T5 - ONE</h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 27h</p>
-                    <p><strong>Periodo:</strong> Dias atuais</p>
-                </div>
-                <div class="card">
-                    <h2>Empreendedorismo T5 - ONE</h2>
-                    <hr>
-                    <p><strong>Carga horaria:</strong> 46h</p>
-                    <p><strong>Periodo:</strong> Dias atuais</p>
-                </div>
+            <div class="card">
+               <h2>Front End T5 - ONE</h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 74h</p>
+               <p><strong>Periodo:</strong> 06/06 à 01/08</p>
             </div>
-        </section>
+            <div class="card">
+               <h2>React T5 - ONE</h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 63h</p>
+               <p><strong>Periodo:</strong> Dias atuais</p>
+            </div>
+            <div class="card">
+               <h2>Desenvolvimento Pessoal T5 - ONE</h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 37h</p>
+               <p><strong>Periodo:</strong> 31/03 à 04/04</p>
+            </div>
+            <div class="card">
+               <h2>Business Agility T5 - ONE</h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 27h</p>
+               <p><strong>Periodo:</strong> Dias atuais</p>
+            </div>
+            <div class="card">
+               <h2>Empreendedorismo T5 - ONE</h2>
+               <hr>
+               <p><strong>Carga horaria:</strong> 46h</p>
+               <p><strong>Periodo:</strong> Dias atuais</p>
+            </div>
+         </div>
+      </section>
 
-        <hr>
+      <hr>
 
-        <section class="projetos">
-            <h2 class="titulo__projetos">Projetos</h2>
-        </section>
+      <section id="4" class="projetos">
+         <h2 class="titulo__projetos">Projetos</h2>
+         <div class="container__cards--projetos">
+            <div class="cards__projetos">
+               <h2>Portfólio</h2>
+               
+               <img class="imagem__projetos" src="assets/imagens/imagem-notebook.png" alt="">
+               <p>Projeto desenvolvido utilizando HTML, CSS e JavaScript, criado para compartilhar quem sou, minhas habilidades e projetos.</p>
+            </div>
+            <div class="cards__projetos">
+               <h2>Em breve</h2>
+               <p>Projeto em desenvolvimento...</p>
+            </div>
+         </div>
+         
+      </section>
 
-        <hr>
+      <hr>
 
-        <section class="contato">
-            <h2 class="titulo__contato">Contato</h2>
-            <form action=""></form>
-        </section>
-    </main>
+      <section id="5" class="contato">
+         <h2 class="titulo__contato">Contato</h2>
+         <div class="divisao__conteudo">
+            <div class="conteudo__primary">
+               <p>Entre em contato para discutir colaborações, projetos ou apenas para dizer oi!</p>
+               <div class="redes__sociais">
+                  <div class="bloco__redes">
+                     <a class="redes__sociais--link" href="https://github.com/llwkascarvalho" target="_blank">
+                        <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-github (1).svg"
+                           alt="GitHub">
+                     </a>
+                     <a class="redes__sociais--link" href="https://www.linkedin.com/in/llwkascarvalho/" target="_blank">
+                        <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-linkedin (1).svg"
+                           alt="Linkedin">
+                     </a>
+                     <a class="redes__sociais--link" href="https://acesse.one/llwkascarvalho" target="_blank">
+                        <img class="sociais__imagem" src="assets/imagens/icon-contato/icons8-whatsapp.svg"
+                           alt="WhatsApp">
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <img class="imagem__front" src="assets/imagens/icones/front.png" alt="">
+         </div>
+      </section>
 
-    <footer>
+   </main>
 
-    </footer>
+   <footer class="footer">
+      <p class="p__footer">Criado e desenvolvido por <span class="span__footer">Lwkas Carvalho</span>. &copy; Todos os direitos reservados.<p>
+   </footer>
 
-    <script src="script.js" defer></script>
+   <script src="script.js" defer></script>
 
 </body>
+
 </html>

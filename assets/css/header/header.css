@@ -13,6 +13,10 @@
     font-size: 2em;
 }
 
+.link__cabecalho {
+    text-decoration: none;
+}
+
 span {
     font-family: var(--font_diferente);
     color: var(--azul1);

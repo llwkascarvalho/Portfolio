@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1600px;
+    margin: auto;
+    height: 5em;
+    background-color: var(--azul2);
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+}
+
+.p__footer {
+    color: var(--branco_claro);
+}
+
+.span__footer {
+    color: #FFC55A;
+}
