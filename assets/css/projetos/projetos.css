@@ -40,5 +40,5 @@
 }
 
 .imagem__projetos {
-    width: 350px;
+    max-width: 350px;
 }
