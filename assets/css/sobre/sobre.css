@@ -12,11 +12,23 @@
     margin-bottom: 25px;
 }
 
-.p__sobre{
-    margin-bottom: 50px;
+.lista__sobre {
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.item__sobre {
     color: var(--branco_claro);
     font-size: 1.5em;
-    line-height: 28px;
-    text-align: justify;
-    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.item__sobre:hover {
+
+    text-decoration: underline var(--azul1);
+}
+
+.destaque {
+    font-family: var(--font_principal);
+    color: var(--azul1);
 }

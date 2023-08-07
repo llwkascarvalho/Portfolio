@@ -35,3 +35,14 @@ hr {
     margin: auto;
     color: var(--branco_claro);
 }
+
+.botao-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
