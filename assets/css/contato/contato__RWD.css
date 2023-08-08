@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+
+    .divisao__conteudo {
+        flex-direction: column; 
+        gap: 5em;   
+    }
+
+    .conteudo__primary {
+        align-items: center;
+        text-align: center;
+        gap: 2em;
+    }
+
+    .imagem__front {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 640px){
+    .imagem__front {
+        width: 100%;
+    }
+}

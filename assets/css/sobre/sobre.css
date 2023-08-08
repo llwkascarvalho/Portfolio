@@ -6,7 +6,6 @@
 }
 
 .titulo__sobre {
-    display: inline-block;
     font-size: 2.5em;
     color: var(--azul1);
     margin-bottom: 25px;
