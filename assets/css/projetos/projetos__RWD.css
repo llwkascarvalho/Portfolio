@@ -1,0 +1,27 @@
+@media (max-width: 880px){
+    .cards__projetos {
+        width: 300px;
+        padding: 1em 2em;
+        text-align: center;
+    }
+
+    .imagem__projetos {
+        width: 280px;
+    }
+}
+
+@media (max-width: 700px){
+    .cards__projetos {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    .cards__projetos {
+        width: 100%;
+    }    
+
+    .imagem__projetos {
+        width: 250px;
+    }
+}

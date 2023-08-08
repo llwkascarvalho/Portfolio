@@ -1,0 +1,30 @@
+@media (max-width: 950px) {
+
+    .container__cards {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container__cards {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 680px){
+
+    .card {
+        width: 250px;
+    }
+}
+
+@media (max-width: 580px){
+    .card {
+        width: 80%;
+    }
+
+    .formacoes {
+        height: 100%;
+    }
+}
