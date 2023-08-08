@@ -8,6 +8,7 @@
     .inicio {
         flex-direction: column-reverse;
         padding-bottom: 2em;
+        gap: 1.5em;
     }
 
     .bloco__sociais {

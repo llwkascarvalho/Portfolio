@@ -31,7 +31,7 @@ body {
 }
 
 hr {
-    max-width: 800px;
+    max-width: 70%;
     margin: auto;
     color: var(--branco_claro);
 }

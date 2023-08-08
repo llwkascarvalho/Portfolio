@@ -1,3 +1,9 @@
+@media (max-width: 1000px){
+    .container__cards {
+        justify-content: space-evenly;
+    }
+}
+
 @media (max-width: 950px) {
 
     .container__cards {

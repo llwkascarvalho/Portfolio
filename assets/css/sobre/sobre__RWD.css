@@ -1,3 +1,9 @@
+@media (max-width: 730px) {
+    .sobre{
+        height: 100%;
+    }
+}
+
 @media (max-width: 413px){
     .sobre {
         height: 100%;
