@@ -17,28 +17,3 @@ O projeto conta com as seções: <strong>Inicio, Sobre, Formações, Projetos</s
 <h2>💡 Contribuições</h2>
 
 <p>Fique a vontade para analisar o código-fonte desse projeto e também para entrar em contato pra sugerir melhorias ou funcionalidades que podem ser adicionadas.</p>
-
-<style> 
-
-    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Saira:wght@300;400;500;600&display=swap');
-
-    @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
-
-    h1 {
-        text-align: center;
-    }
-
-    strong {
-        color: #2D2BA6;
-    }
-
-    p,li {
-        font-family: 'Saira', sans-serif;
-    }
-
-    h1 {
-        font-family: 'Saira Stencil One', cursive;
-        color: #2D2BA6;
-    }    
-
-</style>
