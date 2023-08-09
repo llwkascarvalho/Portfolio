@@ -31,6 +31,12 @@ body {
 }
 
 hr {
+    max-width: 100%;
+    margin: auto;
+    color: var(--branco_claro);
+}
+
+.hr {
     max-width: 70%;
     margin: auto;
     color: var(--branco_claro);

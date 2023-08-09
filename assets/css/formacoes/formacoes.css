@@ -6,9 +6,8 @@
 
 .formacoes {
     max-width: 1000px;
-    height: 100vh;
     margin: auto;
-    padding: 2em 2em 2em 2em;
+    padding: 2em;
 }
 
 .container__cards {
