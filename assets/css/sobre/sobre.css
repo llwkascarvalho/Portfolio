@@ -2,6 +2,7 @@
     max-width: 1000px;
     margin: auto;
     padding: 2em;
+    margin-bottom: 3.7em;
 }
 
 .titulo__sobre {
@@ -21,12 +22,12 @@
     margin-bottom: 20px;
 }
 
-.item__sobre:hover {
-
-    text-decoration: underline var(--azul1);
-}
 
 .destaque {
     font-family: var(--font_principal);
     color: var(--azul1);
+}
+
+.destaque:hover {
+    text-decoration: underline var(--azul1);
 }

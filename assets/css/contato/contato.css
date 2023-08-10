@@ -26,17 +26,23 @@
 }
 
 .redes__sociais {
-    box-shadow: 1px 1px 10px 2px var(--azul1);
+    box-shadow: 0px 2px 10px var(--sombra);
+    border: 2px solid var(--sombra);
     width: 170px;
     border-radius: 1em;
     gap: 1em;
     padding: 1em 1em 1em 1em;
 }
 
+.redes__sociais:hover {
+    box-shadow: 1px 1px 10px 2px var(--azul1);
+}
+
 .bloco__redes {
     display: flex;
     gap: 0.5em;
 }
+
 
 .redes__sociais--link {
     display: flex;

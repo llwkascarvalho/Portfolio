@@ -32,6 +32,10 @@
     align-items: center;
 }
 
+.cards__projetos:hover {
+    box-shadow: 1px 1px 10px 2px var(--azul1);
+}
+
 .cards__projetos>h2 {
     font-size: 2em;
     border-bottom: 2px solid var(--sombra);
