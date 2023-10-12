@@ -52,7 +52,7 @@
 
 .button {
     font-size: 1rem;
-    
+    margin-left: 1em;
     padding: 0.4rem 1rem;
     border-radius: 0.5rem;
     color: var(--branco_claro);

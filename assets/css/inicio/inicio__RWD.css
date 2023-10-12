@@ -17,6 +17,10 @@
     .bloco__sociais {
         flex-direction: row;
     }
+
+    .button {
+        margin-bottom: 1em;
+    }
 }
 
 @media (max-width: 342px) {

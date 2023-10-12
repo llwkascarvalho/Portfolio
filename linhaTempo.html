@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style-linhaTempo.css">
+    <link rel="stylesheet" href="assets/css/linhaTempoRWD.css">
     <link rel="stylesheet" href="assets/css/footer/footer.css">
     <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
     <title>Linha de Aprendizagem</title>
@@ -15,59 +16,38 @@
         </a>
         <div class="title">
             <h1>Linha de aprendizado | Lwkas <span>Carvalho</span></h1>
-            <p>Criado com o intuito de colocar os cursos finalizados, o que foi aprendido em cada curso e os certificados adquiridos.</p>
-            <button class="button">Front-End</button>
-            <button class="button">Back-End</button>
-            <button class="button">Empreendedorismo</button>
-            <button class="button">Desenvolvimento Pessoal</button>
-            <button class="button">Outros</button>
+            <p>Cursos finalizados, conhecimento adquirido, certificados.</p>
+            <div class="botoes">
+                <button class="button" id="todosBtn">Todos</button>
+                <button class="button" id="frontEndBtn">Front-End</button>
+                <button class="button" id="backEndBtn">Back-End</button>
+                <button class="button" id="empreendedorismoBtn">Empreendedorismo</button>
+                <button class="button" id="desenvolvimentoPessoalBtn">Desenvolvimento Pessoal</button>
+                <button class="button">Outros</button>
+            </div>
         </div>
         <div class="timeline">
             <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
+                <div class="curso" data-categoria="Back-end">
+                    <h2>Curso Back-End</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
                 </div>
             </div>
             <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
+                <div class="curso" data-categoria="Front-end">
+                    <h2>Curso Front-End</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
                 </div>
             </div>
             <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
+                <div class="curso" data-categoria="Desenvolvimento Pessoal">
+                    <h2>Curso Desenvolvimento Pessoal</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
                 </div>
             </div>
             <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
-                </div>
-            </div>
-            <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
-                </div>
-            </div>
-            <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
-                </div>
-            </div>
-            <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
-                </div>
-            </div>
-            <div class="checkpoint">
-                <div>
-                    <h2>Curso Python para DataScience</h2>
+                <div class="curso" data-categoria="Empreendedorismo">
+                    <h2>Curso Empreendedorismo</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime, necessitatibus est. Pariatur, ut tempore! Ab, reiciendis quo.</p>
                 </div>
             </div>

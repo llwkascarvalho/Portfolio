@@ -50,7 +50,7 @@ span{
 }
 
 h1{
-    margin: 0.3em;
+    margin: 1em;
     font-size: 3em;
     font-family: var(--font_diferente);
 }
@@ -70,7 +70,7 @@ h2{
 }
 
 .timeline {
-    margin: 5em auto;
+    margin: 2em auto;
     max-width: 34.15em;
 }
 
@@ -95,7 +95,7 @@ h2{
 .checkpoint:nth-child(odd){
     border-left: 3px solid #888;
     padding-left: 3em;
-    transform: translateX(17em);
+    transform: translateX(16.95em);
 }
 
 .checkpoint:nth-child(even){
@@ -121,5 +121,47 @@ h2{
 }
 
 .checkpoint.checkpoint:nth-child(odd)::before,
-.checkpoint.checkpoint:nth-child(even)::before
+.checkpoint.checkpoint:nth-child(even)::before {
+    content: '';
+    background: #888;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before {
+    left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+    right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before {
+    content: '';
+    background: #fff;
+    box-shadow: 0 0 0.5em #0d71fc;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) div::before {
+    left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before {
+    right: -0.5em;
+}
+
+.botoes {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 

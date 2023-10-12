@@ -8,4 +8,37 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
-  
+
+document.getElementById("frontEndBtn").addEventListener("click", function () {
+  filterCursos("Front-end");
+});
+
+document.getElementById("backEndBtn").addEventListener("click", function () {
+  filterCursos("Back-end");
+});
+
+document.getElementById("desenvolvimentoPessoalBtn").addEventListener("click", function () {
+  filterCursos("Desenvolvimento Pessoal");
+});
+
+document.getElementById("empreendedorismoBtn").addEventListener("click", function () {
+  filterCursos("Empreendedorismo");
+});
+
+document.getElementById("todosBtn").addEventListener("click", function () {
+  filterCursos("Todos");
+});
+
+// Função para filtrar os cursos
+function filterCursos(categoria) {
+  const cursos = document.querySelectorAll(".curso");
+  cursos.forEach((curso) => {
+    const categoriaCurso = curso.getAttribute("data-categoria");
+
+    if (categoria === "Todos" || categoria === categoriaCurso) {
+      curso.style.display = "block";
+    } else {
+      curso.style.display = "none";
+    }
+  });
+}
