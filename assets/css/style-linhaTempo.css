@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Saira:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font_principal);
+}
+
+:root {
+    --branco_claro: #f5f5f5;
+    --cinzaclaro: #ffffff80;
+    --sombra: #5992ab1a;
+    --azul1: #6C6CEC;
+    --azul2: #2D2BA6;
+    --azul3: #000069;
+    --black: #00000a;
+
+
+    --font_principal: 'Saira', sans-serif;
+    --font_diferente: 'Saira Stencil One', cursive;
+}
+
+body{
+    margin: 0;
+    background-color: var(--black);
+    color: var(--branco_claro);
+    padding: 2em;
+}
+
+body::before{
+    content: '';
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+}
+
+span{
+    color: #6C6CEC;
+}
+
+h1{
+    margin: 0.3em;
+    font-size: 3em;
+    font-family: var(--font_diferente);
+}
+
+h2{
+    margin-bottom: 0.5em;
+}
+
+.title{
+    text-align: center;
+}
+
+.title p {
+    color: #6C6CEC;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+.timeline {
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+
+.checkpoint {
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+
+.checkpoint div {
+    border: 2px solid var(--sombra);
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.checkpoint p {
+    line-height: 27px;
+    color: var(--branco_claro);
+}
+
+.checkpoint:nth-child(odd){
+    border-left: 3px solid #888;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+
+.checkpoint:nth-child(even){
+    border-right: 3px solid #888;
+    padding-right: 3em;
+    transform: translateX(-17em);
+}
+
+.checkpoint.checkpoint:nth-child(odd)::before,
+.checkpoint.checkpoint:nth-child(even)::before
+
