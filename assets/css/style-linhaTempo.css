@@ -70,15 +70,19 @@ h2{
 }
 
 .timeline {
-    margin: 2em auto;
-    max-width: 34.15em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: auto;
+    max-width: 80vw;
 }
 
 .checkpoint {
-    max-width: 34em;
+    max-width: 30em;
     padding-top: 2em;
     padding-bottom: 2em;
     position: relative;
+    margin: auto;
 }
 
 .checkpoint div {
@@ -90,18 +94,6 @@ h2{
 .checkpoint p {
     line-height: 27px;
     color: var(--branco_claro);
-}
-
-.checkpoint:nth-child(odd){
-    border-left: 3px solid #888;
-    padding-left: 3em;
-    transform: translateX(16.95em);
-}
-
-.checkpoint:nth-child(even){
-    border-right: 3px solid #888;
-    padding-right: 3em;
-    transform: translateX(-17em);
 }
 
 .button {
@@ -120,48 +112,7 @@ h2{
     box-shadow: 1px 1px 10px 2px var(--azul1);
 }
 
-.checkpoint.checkpoint:nth-child(odd)::before,
-.checkpoint.checkpoint:nth-child(even)::before {
-    content: '';
-    background: #888;
-    width: 3em;
-    height: 3px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.checkpoint:nth-child(odd)::before {
-    left: 0;
-}
-
-.checkpoint:nth-child(even)::before {
-    right: 0;
-}
-
-.checkpoint:nth-child(odd) div::before,
-.checkpoint:nth-child(even) div::before {
-    content: '';
-    background: #fff;
-    box-shadow: 0 0 0.5em #0d71fc;
-    width: 0.8em;
-    height: 0.8em;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-}
-
-.checkpoint:nth-child(odd) div::before {
-    left: -0.5em;
-}
-
-.checkpoint:nth-child(even) div::before {
-    right: -0.5em;
-}
-
 .botoes {
     justify-content: center;
     flex-wrap: wrap;
 }
-
