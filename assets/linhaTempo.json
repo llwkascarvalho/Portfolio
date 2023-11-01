@@ -1,6 +1,6 @@
 [
     {
-        "nome": "Curso Oracle Analytics: visualizando dados",
+        "nome": "Oracle Analytics: visualizando dados",
         "sobre": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime",
         "link": "O que aprendi nesse curso",
         "certificado": "#",
@@ -8,7 +8,7 @@
     },
 
     {
-        "nome": "Curso Desenvolvimento Pessoal",
+        "nome": "Desenvolvimento Pessoal",
         "sobre": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime",
         "link": "O que aprendi nesse curso",
         "certificado": "#",
@@ -16,7 +16,7 @@
     },
 
     {
-        "nome": "Curso Front-End",
+        "nome": "Front-End",
         "sobre": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime",
         "link": "O que aprendi nesse curso",
         "certificado": "#",
@@ -24,7 +24,7 @@
     },
 
     {
-        "nome": "Curso Front-End",
+        "nome": "Front-End",
         "sobre": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime",
         "link": "O que aprendi nesse curso",
         "certificado": "#",
@@ -32,7 +32,7 @@
     },
 
     {
-        "nome": "Curso Front-End",
+        "nome": "Front-End",
         "sobre": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime",
         "link": "O que aprendi nesse curso",
         "certificado": "#",
@@ -40,7 +40,7 @@
     },
 
     {
-        "nome": "Curso Empreendedorismo",
+        "nome": "Empreendedorismo",
         "sobre": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis obcaecati voluptas omnis et voluptatum amet, corporis, corrupti autem aperiam ipsa facilis maxime",
         "link": "O que aprendi nesse curso",
         "certificado": "#",
