@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
+
+// linha do tempo 
+
 document.getElementById("frontEndBtn").addEventListener("click", function () {
   filterCursos("Front-end");
 });
@@ -25,9 +28,7 @@ document.getElementById("empreendedorismoBtn").addEventListener("click", functio
   filterCursos("Empreendedorismo");
 });
 
-document.getElementById("todosBtn").addEventListener("click", function () {
-  filterCursos("Todos");
-});
+
 
 // Função para filtrar os cursos
 function filterCursos(categoria) {
