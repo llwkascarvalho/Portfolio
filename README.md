@@ -17,3 +17,7 @@ O projeto conta com as seções: <strong>Inicio, Sobre, Formações, Projetos</s
 
 <h2>🔗 Ficou curioso(a) ?</h2>
 <p>Esse projeto pode ser visualizado clicando <a href="https://llwkascarvalho.github.io/Portfolio/" target="_blank">aqui</a>.</p>
+
+<p>📃 Curriculo  <a href="assets/Profile Lwkas.pdf" download>baixe aqui</a>.</p>
+
+
