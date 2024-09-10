@@ -30,6 +30,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .cards__projetos:hover {
@@ -45,4 +46,10 @@
 .imagem__projetos {
     margin: 12px 0 0px 0;
     max-width: 250px;
+    margin-bottom: 16px;
+}
+
+.encontreja {
+    max-width: 350px;
+    border-radius: 16px;
 }
